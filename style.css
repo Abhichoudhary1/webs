@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+
+.left-sc img {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+
+
+}
+
+.services {
+    width: 50%;
+
+}
+
+.services ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.services ul li {
+    font-size: 20px;
+}
+
+.right-sc {
+    width: 25%;
+}
+
+.right-sc ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-section {
+    height: 500px;
+    width: 100%;
+
+
+
+}
+
+.amd {
+    height: 500px;
+    width: 100%;
+    background-image: url(./766157-amd-instinct-rocm-science-campaign-fade.jpg);
+    color: white;
+    padding: 150px;
+
+}
+
+.amd h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.amd h3 {
+    font-size: 25px;
+}
+
+.amd button {
+    border: 1px solid black;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: rgb(63, 51, 51);
+    color: white;
+    padding: 12px;
+    box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 0%, 100%, .2);
+}
+
+.main-box {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+
+}
+
+.fea {
+    height: 200px;
+    color: white;
+   
+    
+
+}
+
+.pro {
+    display: flex;
+    height: 400px;
+    width: 150%;
+    flex-direction: column;
+
+}
+.pro h5{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.pro a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #2899ff;
+}
+.pro button{
+    width: 20%;
+    height: 50px;
+    padding: 2px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.pro p{
+    color: white;
+    margin-top: 20px;
+}
+.pro img {
+    height: 500px;
+    width: 400px;
+}
+.featured-sol{
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+
+}
+.featured-sol h2{
+    color: white;
+    font-size: 25px;
+    padding: 100px;
+}
+.solutions{
+    height: 300px;
+    width: 100%;
+    background-image: url('./2002800-ai-solutions-color-tendrills.jpg');
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+.solutions h4{
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.solutions p{
+    color: white;
+    margin-top: 15px;
+}
+.solutions a{
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+
+}
+.inovation{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.inv{
+    height: 500px;
+    width: 100%;
+    position: fixed;
+    bottom: 5;
+    border: 2px solid blue;
+
+}   
+
+.together{
+    background-image: url('./1579650-twa-ai.webp');
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.together h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+.together p{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.together button{
+    font-size: 20px;
+    border: 1px solid black;
+    background: rgba(251, 237, 237, 0.491);
+    color: white;
+    padding: 15px;
+    box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 37%, 50%, 0.2);
+    margin-top: 20px;
+}
+
+
+.case-study{
+    height: 900px;
+    width: 100%;
+    background: black;
+    
+}
+.case-study h3{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    padding: 30px;
+}
+.case{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.automotive{
+    background-image: url("./1913654-truecar-case-study.jpg");
+    background-position: center;
+    background-size: cover;
+   padding: 20px;
+    height: 350px;
+    width: 40%;
+}
+
+
+
+.automotive h1{
+    color: white;
+    margin-top: 30px;
+
+}
+.automotive p{
+    color: white;
+    margin-top: 30px;
+}
+.automotive button{
+    border: 1px solid white;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+}
+.media{
+    background-image: url("./innovation.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    height: 350px;
+    width: 50%;
+}
+
+.media h1{
+    color: white;
+    margin-top: 30px;
+}
+
+.media p{
+    color: white;
+    margin-top: 30px;
+}
+
+.media button{
+    border: 1px solid white;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.pross{
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.supercom{
+    background-image: url("./innovation2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+}
+
+.supercom h1{
+    color: white;
+    margin-top: 30px;
+}
+
+.supercom p{
+    color: white;
+    margin-top: 30px;
+}
+
+.supercom button{
+    border: 1px solid white;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.healthcare{
+    background-image: url("./innovation3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 40%;
+    padding: 20px;
+}
+.healthcare h1{
+    color: white;
+    margin-top: 30px;
+}
+
+.healthcare p{
+    color: white;
+    margin-top: 30px;
+}
+.healthcare button{
+    border: 1px solid white;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+}
+.news{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.news h2{
+    padding: 30px;
+    color: white;
+    font-size: 35px;
+}
+.latest{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lat{
+    padding: 25px;
+    height: 350px;
+    width: 20%;
+    box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 37%, 50%, 0.2);
+}
+.lat p{
+    padding: 15px;
+    color: white;
+}
+.lat img{
+    height: 200px;
+    width: 350px;
+}
+.reports{
+    padding: 20px;
+    height: 350px;
+    width: 20%;
+    box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 37%, 50%, 0.2);
+}   
+   
+.reports p{
+    padding: 15px;
+    color: white;
+}
+.reports img{
+    height: 200px;
+    width: 300px;
+}
+.announce{
+    padding: 20px;
+    height: 350px;
+    width: 20%;
+    box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 37%, 50%, 0.2);
+}
+.announce p{
+    padding: 15px;
+    color: white;
+}
+.announce img{
+    height: 200px;
+    width: 300px;
+}
+.report{
+    padding: 20px;
+    height: 350px;
+    width: 20%;
+    box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0, 37%, 50%, 0.2);
+}
+.report p{
+    padding: 15px;
+    color: white;
+}
+.report img{
+    height: 200px;
+    width: 300px;
+}
+.footer{
+    height: 700px;
+    width: 100%;
+    background: #000;
+}
+.fut{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.left-fot{
+    height: 200px;
+    width: 30%;
+}
+.left-fot a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.right-fot{
+    height: 200px;
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-fot i{
+
+    color: white;
+}
+.left-fot hr{
+    margin-top: 12px;
+}
+.left-fot i{
+    padding: 12px;
+}
+.main-footer{
+    height: 300px;
+    width: 100%;
+}
+.abt{
+    display:flex;
+    justify-content: space-evenly;
+}
+.abt ul{
+    color: white;
+    font-size: 25px;
+}
+.abt ul li{
+    list-style-type: none;
+    font-size: 15px;
+    color: #9d9fa2;
+    margin-top: 20px;
+}
+.last-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.last-footer a{
+    color: #9d9fa2;
+    content: "|";
+    margin-left: 5px;
+    text-decoration: none;
+}
+.copyright p{
+    text-align: center;
+    color: #9d9fa2;
+    margin-top: 20px;
+}
+
+/* responsive css */
+
+@media (max-width: 768px) {
+    
+.main-container{
+    height: auto;
+    width: 100%;
+}
+.services{
+    display: none;
+}
+.hero-section{
+    height: auto;
+    width: 100%;
+   
+}
+.amd{
+
+     height: auto; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   
+}
+.amd h1{
+    height: auto;
+    width: 100%;
+}
+.amd h3{
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.amd h1{
+    height: auto;
+    width: 100%;
+    font-size: 25px;
+}
+.amd h3{
+    height: auto;
+   width: 100%;
+   font-size: 15px;
+} 
+.amd button{
+    height: auto;
+    width: 100%;
+    font-size: 12px;
+}
+.main-box{
+    height: auto;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+}
+.fea{
+    height: auto;
+    width: 100%;
+}
+.pro{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.featured-sol{
+    height: auto;
+    width: 100%;
+}
+.solutions{
+    height: auto;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+.together{
+    padding: 50px;
+    height: auto;
+    width: 100%;
+}
+.case-study{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.case{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+.automotive{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+.media{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+.pross{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+.supercom{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+.healthcare{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+.news{
+    height: auto;
+    width: 100%;
+}
+.news h2{
+    font-size: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lat{
+   height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.reports{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.announce{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.report{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    height: auto;
+    width: 100%;
+}
+.fut{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-footer{
+    height: auto;
+    width: 100%;
+}
+.abt{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.abt ul{
+    text-align: center;
+    margin-top: 10px;
+}
+.last-footer{
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+}
